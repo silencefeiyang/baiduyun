@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百度网盘</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<header class="top-head">
+			<h1 class="logo">百度云盘</h1>
+			<div class="list">
+				<a href="">网盘</a>
+				<a href="">分享</a>
+				<a href="">更多</a>
+			</div>
+			<ul class="other">
+				<li>
+					<img src="img/user.jpg" alt="" />
+					<a href="">我的账户</a>
+					<a href=""></a>
+				</li>
+				<li><span></span><a href="">客户端下载</a></li>
+				<li><a href="">消息</a></li>
+				<li><a href="">目录</a></li>
+				<li><a href="">皮肤</a></li>
+				<li><a href="">会员中心</a></li>
+			</ul>
+			<div class="outtip"></div>
+		</header>
+		<!--主体-->
+		<section class="content">
+			<div class="left-menu fl">
+				<ul class="left-parent-ul">
+					<!--<li>
+						<h3><i></i><span class="open"></span>根目录</h3>
+						<ul>
+							<li>
+								<h3 class="active"><i></i><span class="open"></span>全部文件</h3>
+								<ul>
+									<li>
+										<h3><i></i><span></span>图片</h3>
+										<ul>
+											<li>
+												<h3><span></span>风景</h3>
+											</li>
+											<li>
+												<h3><span></span>人物</h3>
+											</li>
+											<li>
+												<h3><span></span>美食</h3>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<h3><i></i><span></span>文档</h3>
+										<ul>
+											<li>
+												<h3><span></span>科技</h3>
+											</li>
+											<li>
+												<h3><span></span>人文</h3>
+											</li>
+											<li>
+												<h3><span></span>资料</h3>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<h3><i></i><span></span>视频</h3>
+										<ul>
+											<li>
+												<h3><i></i><span></span>电影</h3>
+											</li>
+											<li>
+												<h3><i></i><span></span>前端视频</h3>
+												<ul>
+													<li>
+														<h3><span></span>基础视频</h3>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<h3><span></span>电视剧</h3>
+											</li>
+											<li>
+												<h3><span></span>纪录片</h3>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<h3><i></i><span></span>音乐</h3>
+										<ul>
+											<li>
+												<h3><span></span>摇滚</h3>
+											</li>
+											<li>
+												<h3><span></span>轻音乐</h3>
+											</li>
+											<li>
+												<h3><span></span>流行乐</h3>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<h3><span></span>其他</h3>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<h3>我的分享</h3>
+							</li>
+							<li>
+								<h3>回收站</h3>
+							</li>
+						</ul>
+					</li>-->
+				</ul>
+			</div>
+			<div class="center-main-content fl">
+				<div class="center-top">
+					<ul class="function fl">
+						<li class="updata active">上传</li>
+						<li class="creat-new-file">新建文件夹</li>
+						<li class="move-to">移动到</li>
+						<li class="delet-file">重命名</li>
+						<li class="re-set-name">删除</li>
+					</ul>
+					<div class="funtion-right fr">
+						<form action="" class="fl">
+							<input type="text" class="search" placeholder="搜索您的文件"/>
+							<span class="ico"></span>
+						</form>
+						<a href="" class="icoone fl"></a>
+						<a href="" class="icotwo fl"></a>
+					</div>
+				</div>
+				<div class="main-content">
+					<div class="main-top">
+						<div class="step-wrap fl">
+							<div class="back-prev fl">
+								<a href="javascript:;" class="back active fl">返回上一级</a>
+								<i class="line fl"></i>
+							</div>
+							<div class="step-list fl">
+								<!--<a href="javascript:;" class="fl">全部文件</a>
+								<i class="next fl">></i>
+								<a href="javascript:;" class="fl">视频</a>
+								<i class="next fl">></i>
+								<a href="javascript:;" class="fl">前端入门视频</a>
+								<i class="next fl">></i>
+								<span class="fl">基础视频</span>-->
+							</div>
+							
+						</div>
+						<div class="file-num-info fr">已全部加载，共16个</div>
+
+					</div>
+					<div class="all-item">
+							<span></span>
+							全选
+						</div>
+					<ul id = "file-list" class="view-scale view-list ">
+						<!--<li class ="select fl">
+							<div></div>
+							<div class="file-name-wrap">
+								<span class="file-name">新建文件夹</span>
+								<input type="text" value="新建文件夹" class="edit-name"/>
+							</div>
+							<i class="select"></i>
+							<ul class="view-scale">
+								<li class="fl">
+									<div></div>
+									<div class="file-name-wrap">
+										<span class="file-name">新建文件夹</span>
+										<input type="text" value="新建文件夹" class="edit-name"/>
+									</div>
+									<i class="select"></i>
+								</li>
+								<li class="fl">
+									<div></div>
+									<div class="file-name-wrap">
+										<span class="file-name">新建文件夹</span>
+										<input type="text" value="新建文件夹" class="edit-name"/>
+									</div>
+									<i class="select"></i>
+								</li>
+							</ul>
+						</li>-->
+					</ul>
+					<ul id="list">
+						<li>打开</li>
+						<li>下载</li>
+						<li class="other_choice">
+							<i></i>
+							推送到设备				
+						   <ul class="contextmenu_wrap">
+						   	 <li>手机</li>
+						   	 <li>平板</li>
+						   </ul>
+						</li>
+						<li>移动到</li>
+						<li>重命名</li>
+						<li>删除</li>
+					</ul>					
+				</div>
+				
+			</div>
+		</section>
+		<div class="superbg">
+			<div class="move-to-box">
+				<div class="top-head">选择目标文件
+					<div class="close-move">X</div>
+				</div>
+				<div class="big-wrap">
+					<ul class="move-to-wrap">							
+					</ul>
+				</div>
+				<div class="bottom">
+					<button class="sure-move select">确定</button>
+					<button class="cancel-move">取消</button>
+				</div>
+				<div class="resure">
+					已经有相同的文件了，选择你的操作
+					<button class="cover">覆盖</button>
+					<button class="cancel-move2">取消</button>
+				</div>
+			</div>
+		</div>
+		<script src="js/data.js"></script>
+		<script src="js/tool.js"></script>
+		<script src="../tools.js"></script>
+		<script src="js/str_create_left_tree.js"></script>
+		<script src="js/str_create_file.js"></script>
+		<script src="js/cookie.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
